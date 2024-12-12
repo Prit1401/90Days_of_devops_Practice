@@ -1,0 +1,16 @@
+Q . What is the linux command to
+
+1) Check your present working directory.
+Ans : We can use the "PWD" command for check the present working directory .
+
+2) List all the files or directories including hidden files.
+Ans : we can use "ls -a" command to display all files .
+      ls : list the contents of a directory
+      -a : includes all hidden files (files or directories starting with dot .)
+
+3) Create a nested directory A/B/C/D/E
+Ans : we can use " mkdir -p A/B/C/D/E " for nested directory.
+      mkdir : creates directories
+      -p :  - it is use to creates parent directories as needed. if any of the directories in the path (like A, B, C..) dont exist , it creates them .
+            - if any of the directories already exist , it just skips over them without showing any error.
+             it means you dont have to worry to create manually creating each directory step bye step or checking if thy alredy exist.
