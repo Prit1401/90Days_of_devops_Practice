@@ -1,0 +1,41 @@
+Q . What is the linux command to :
+
+1) To view what's written in a file.
+Ans : we can use command "cat filename" to view all content at a time
+
+2) To change the access permissions of files.
+Ans : "chmod [permissions] filename" we can use this command to access the permission of files .
+
+3) To check which commands you have run till now.
+Ans : history command we can use.
+
+4) To remove a directory/ Folder.
+Ans : rm -r directory_name This removes the directory and all its files and subdirectories.
+
+5) To create a fruits.txt file and to view the content.
+Ans : to create - touch fruits.txt , to view content - cat fruits.txt 
+
+6) Add content in devops.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
+Ans : 1st to create devops.txt file then - to print the all fruits one in each line we can use "echo" command 
+      echo "Apple" >> devops.txt
+      echo "Mango" >> devops.txt
+      echo "Banana" >> devops.txt
+      echo "Cherry" >> devops.txt
+      echo "Kiwi" >> devops.txt
+      echo "Orange" >> devops.txt
+      echo "Guava" >> devops.txt
+
+7) To Show only top three fruits from the file.
+Ans : we can use "head" command to display the top three fruits.
+      head -n 3 devops.txt
+      -head displays the first few lines of the file
+      - -n 3 specifies that only the first 3 lines should be display.
+
+8) To Show only bottom three fruits from the file.
+Ans : we can use "tail" command to display the last 3 fruits 
+      tail -n 3 devops.txt
+      -tail displays the last few lines of the file
+      - -n 3 specifies that only the last 3 lines should be display.
+9) To create another file Colors.txt and to view the content.
+10) Add content in Colors.txt (One in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey.
+11) To find the difference between fruits.txt and Colors.txt file.
