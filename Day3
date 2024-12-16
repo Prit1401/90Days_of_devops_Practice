@@ -37,5 +37,15 @@ Ans : we can use "tail" command to display the last 3 fruits
       -tail displays the last few lines of the file
       - -n 3 specifies that only the last 3 lines should be display.
 9) To create another file Colors.txt and to view the content.
+Ans : we can use "touch" command to create new file and to view the file for that we can use "cat" command .
 10) Add content in Colors.txt (One in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey.
+Ans : echo "Red" >> colors.txt
+      echo "Pink" >> colors.txt
+      echo "White" >> colors.txt
+      echo "Black" >> colors.txt
+      echo "Blue" >> colors.txt
+      echo "Orange" >> colors.txt
+      echo "Purple" >> colors.txt
+      echo "Grey" >> colors.txt
 11) To find the difference between fruits.txt and Colors.txt file.
+Ans : to find the diff in the files we can use "diff" command .
